@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+ 
 
 namespace NavGame.Core
 {
@@ -29,7 +29,7 @@ namespace NavGame.Core
         }
         public virtual void Die()
         {
-            Destroy(GameObject);
+            Destroy(gameObject);
             
         }
     }

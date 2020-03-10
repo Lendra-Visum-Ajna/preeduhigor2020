@@ -5,7 +5,7 @@ using UnityEngine.AI;
 using NavGame.Core;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class PlayerControler : TouchableGameObject;
+public class PlayerControler : TouchableGameObject
 {
     NavMeshAgent agent;
     Camera cam;

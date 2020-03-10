@@ -84,6 +84,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8e5fafd910adcf489150217f3e3f65c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contactRadius: 0.5
+  currentHealth: 0
+  stats:
+    maxHealth: 100
+    damage: 7
+    armor: 1
+    attackSpeed: 1
 --- !u!1 &8027294068760113062
 GameObject:
   m_ObjectHideFlags: 0
